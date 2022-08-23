@@ -45,6 +45,7 @@ body {
 }
 
 .mainHeader {
+
     font-size: 3rem;
     font-weight: 400;
     margin: 0;
@@ -57,6 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 20px;
 }
 
 .formField {
@@ -70,6 +72,10 @@ body {
     border-bottom: 1px solid black;
 }
 
+.formField:hover {
+    background-color: rgb(234, 228, 228);
+}
+
 .btn {
    border-radius: 1rem;
    font-size: 1.5rem;
@@ -77,6 +83,8 @@ body {
    padding: .8rem;
    margin-top: 1rem;
    background-color: transparent;
+   position: relative;
+   right: 220px;
    
    
 }
